@@ -349,7 +349,7 @@ class PuzzlePage extends React.Component {
               </center>
             </form>
             <br />
-            <Button variant="contained" color="primary" className={classes.submitButton} onClick={this.submitAnswer} disabled={this.state.errorText != "" || this.state.isSolved} type="submit">
+            <Button variant="contained" color="primary" className={classes.submitButton} onClick={this.submitAnswer} disabled={this.state.errorText !== "" || this.state.isSolved} type="submit">
               SEND
             </Button>
             <br />
