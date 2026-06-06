@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+a[type=menu] {
+  color: #FFF;
+}
+a:hover[type=menu] {
+   color: rgb(209, 209, 209)
+}
+a:link{
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+.link:link {
+  text-decoration: none;
+}
+.link:visited {
+  text-decoration: none;
+}
+.link {
+  color: #FFF;
+}
+.link:hover {
+   color: rgb(201, 201, 201);
+}
+
+.team:link {
+  text-decoration: none;
+}
+.team:visited {
+  text-decoration: none;
+}
+.team {
+  color: #337ab7;
+  text-decoration: none;
+}
+.team:hover {
+  text-decoration: underline;
+}
+
+
+.ctfbutton {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inherit;
+  text-transform: none;
+  -webkit-appearance: button;
+  text-align: center;
+  user-select: none;
+  border: 1px solid transparent;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  color: #fff;
+  width: 100%!important;
+  margin-bottom: .5rem!important;
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 8px 20px;
+  box-shadow: 3px 3px 3px grey;
+  cursor: pointer;
+}
+
+.ctfbuttonunsolved {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+.ctfbuttonunsolved:hover {
+  background-color: #23272b;
+  border-color: #23272b;
+}
+.ctfbuttonsolved {
+  border: none;
+  opacity: 0.5;
+  background-color: #37d63e!important;
+}
