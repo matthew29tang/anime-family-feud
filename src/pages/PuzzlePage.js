@@ -109,8 +109,6 @@ class PuzzlePage extends React.Component {
 
   calculateScoreFromRank = (rank) => {
     if (rank <= 3) {
-      return 7;
-    } else if (rank <= 6) {
       return 5;
     } else if (rank <= 10) {
       return 4;
