@@ -27,16 +27,13 @@ class Home extends React.Component {
           <h3>Scoring:</h3>
           Rank 26-50: 1pt
           <br/>
-          Rank 16-25: 2pts
+          Rank 11-25: 2pts
 
           <br/>
-          Rank 11-15: 3pts
+          Rank 6-10: 3pts
  
           <br/>
-          Rank 4-10: 4pts
-
-          <br/>
-          Rank 1-3: 5pts
+          Rank 1-5: 4pts
 
           <br /> <br/>
           </div>

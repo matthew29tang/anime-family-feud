@@ -8,7 +8,7 @@ let puzzleInfo = [
   }, {
     puzzleId: 1,
     name: "Best of the 2010s",
-    points: 103,
+    points: 90,
     body: (<div><i>Best anime of the 2010s, polled by Redditors on 11/22/23.<br/><br/> Any anime that had at least 1 episode airing between 2010-2020 is eligible.</i></div>),
     answer: "No answer",
     choices: [
@@ -66,7 +66,7 @@ let puzzleInfo = [
   }, {
     puzzleId: 2,
     name: "Tearjerkers",
-    points: 103,
+    points: 90,
     body: (<div><i>Anime that's most likely to make you cry, polled by Redditors on 12/6/2023.</i></div>),
     answer: "No answer",
     choices: [
@@ -124,7 +124,7 @@ let puzzleInfo = [
   }, {
     puzzleId: 3,
     name: "Most Popular",
-    points: 103,
+    points: 90,
     body: (<div><i>Top anime on MAL ranked by popularity (# of members) as of 6/5/2026.</i></div>),
     answer: "No answer",
     choices: [
