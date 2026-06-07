@@ -240,7 +240,7 @@ class PuzzlePage extends React.Component {
             </Grid>
             </Grid>
             
-            <h2 style={{ marginTop: "5px", marginBottom: "5px" }}>{this.state.totalPoints} / 112 points</h2>
+            <h2 style={{ marginTop: "5px", marginBottom: "5px" }}>{this.state.totalPoints} / 90 points</h2>
             <Divider />
             <br />
             <center>
