@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b751d7a16d62e6f4d04c850e475e640",
+    "revision": "04c86520c2c7a3f2d560404bb3d15077",
     "url": "/anime-family-feud/index.html"
   },
   {
-    "revision": "5abad70008ab409f82a4",
+    "revision": "8aa21453b0cb4d24d4d7",
     "url": "/anime-family-feud/static/css/main.1e24408e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anime-family-feud/static/js/2.22558305.chunk.js"
   },
   {
-    "revision": "5abad70008ab409f82a4",
-    "url": "/anime-family-feud/static/js/main.82f55463.chunk.js"
+    "revision": "8aa21453b0cb4d24d4d7",
+    "url": "/anime-family-feud/static/js/main.c726c615.chunk.js"
   },
   {
     "revision": "730034f1fa27905b4a79",
