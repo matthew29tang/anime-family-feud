@@ -283,7 +283,6 @@ class PuzzlePage extends React.Component {
                   onInputChange={(event, newInputValue, reason) => {
                     const normalizedInput = this.stripAndLowercase(newInputValue);
                     
-                    // 1. Calculate duplicate status instantly
                     const isDuplicate = this.state.teamGuesses.some(
                       (guess) => this.stripAndLowercase(guess.g) === normalizedInput
                     );
@@ -292,14 +291,14 @@ class PuzzlePage extends React.Component {
                     let nextTextFieldOpen = this.state.textFieldOpen;
                     let nextSingleMatch = this.state.singleMatch;
 
-                    // 2. Handle dropdown state mechanics cleanly
                     if (reason === 'input') {
                       if (isDuplicate) {
                         nextTextFieldOpen = false;
                         nextSingleMatch = null;
                       } else {
+                        // 1. Changed from .startsWith() to .includes() to match anywhere
                         const matches = this.state.choices.filter((option) =>
-                          option[1].toLowerCase().startsWith(newInputValue.toLowerCase())
+                          option[1].toLowerCase().includes(newInputValue.toLowerCase())
                         );
 
                         if (matches.length === 1) {
@@ -318,7 +317,6 @@ class PuzzlePage extends React.Component {
                       nextErrorText = "";
                     }
 
-                    // 3. Fire exactly ONCE so React locks all values down at the same millisecond
                     this.setState({
                       textField: newInputValue,
                       errorText: nextErrorText,
@@ -331,7 +329,7 @@ class PuzzlePage extends React.Component {
                   forcePopupIcon={false}
                   clearOnBlur={false}
                   filterOptions={createFilterOptions({
-                    matchFrom: 'start',
+                    matchFrom: 'any',
                     ignoreCase: true,
                   })}
                   renderInput={(params) => (

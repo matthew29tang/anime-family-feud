@@ -9,7 +9,7 @@ let puzzleInfo = [
     puzzleId: 1,
     name: "Best of the 2010s",
     points: 90,
-    body: (<div><i>Best anime of the 2010s, polled by Redditors on 11/22/23.<br/><br/> Any anime that had at least 1 episode airing between 2010-2020 is eligible.</i></div>),
+    body: (<div><i>Best anime of the 2010s, polled on Reddit on 11/22/23.<br/><br/> Any anime that had at least 1 episode airing between 2010-2020 is eligible.</i></div>),
     answer: "No answer",
     choices: [
     ["1", "Steins;Gate", "496"],
@@ -67,7 +67,7 @@ let puzzleInfo = [
     puzzleId: 2,
     name: "Tearjerkers",
     points: 90,
-    body: (<div><i>Anime that's most likely to make you cry, polled by Redditors on 12/6/2023.</i></div>),
+    body: (<div><i>Anime that's most likely to make you cry, polled on Reddit on 12/6/2023.</i></div>),
     answer: "No answer",
     choices: [
       ["1", "Clannad: Afterstory", "610"],
