@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/anime-family-feud/precache-manifest.e361db7b4d18948fc2cbcfd7a7672ce6.js"
+  "/anime-family-feud/precache-manifest.f5581d5ed107c902fc52c1ec26a88195.js"
 );
 
 self.addEventListener('message', (event) => {
